@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 4f62ce52934f51d4d9e336e83afc6c35
+guid: 53709f263426cf34dbd82aa8f266079b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7809785511404226330
-    second: Guard_0
+      213: 3292312392937379113
+    second: Mc_0
   - first:
-      213: 7517161418421729254
-    second: Guard_1
+      213: 2253131308657568052
+    second: Mc_1
   - first:
-      213: 170288124656062214
-    second: Guard_2
+      213: 5434073368046667879
+    second: Mc_2
   - first:
-      213: -6889201110466385560
-    second: Guard_3
+      213: -2471345570809493600
+    second: Mc_3
   - first:
-      213: -5596783081012337526
-    second: Guard_4
+      213: -5514537182639460941
+    second: Mc_4
   - first:
-      213: -4167788796274468605
-    second: Guard_5
+      213: -8574755999722377821
+    second: Mc_5
   - first:
-      213: -6754148964583377256
-    second: Guard_6
+      213: 2766910800328515705
+    second: Mc_6
   - first:
-      213: -6600887670755267437
-    second: Guard_7
+      213: -2754924934265212215
+    second: Mc_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guard_0
+      name: Mc_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e832c494711e9390800000000000000
-      internalID: -7809785511404226330
+      spriteID: 92516ae8da4a0bd20800000000000000
+      internalID: 3292312392937379113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_1
+      name: Mc_1
       rect:
         serializedVersion: 2
         x: 96
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e77c408b72525860800000000000000
-      internalID: 7517161418421729254
+      spriteID: 43968d4dcfab44f10800000000000000
+      internalID: 2253131308657568052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_2
+      name: Mc_2
       rect:
         serializedVersion: 2
         x: 192
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60f879ba52cfc5200800000000000000
-      internalID: 170288124656062214
+      spriteID: 76805d1ffe4b96b40800000000000000
+      internalID: 5434073368046667879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_3
+      name: Mc_3
       rect:
         serializedVersion: 2
         x: 0
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 869ac603714a460a0800000000000000
-      internalID: -6889201110466385560
+      spriteID: 0a74aae0c4404bdd0800000000000000
+      internalID: -2471345570809493600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_4
+      name: Mc_4
       rect:
         serializedVersion: 2
         x: 96
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a84e75bd07b3452b0800000000000000
-      internalID: -5596783081012337526
+      spriteID: 3bd671056ad6873b0800000000000000
+      internalID: -5514537182639460941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_5
+      name: Mc_5
       rect:
         serializedVersion: 2
         x: 192
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3091533fb2a0926c0800000000000000
-      internalID: -4167788796274468605
+      spriteID: 3ade5e869d8500980800000000000000
+      internalID: -8574755999722377821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_6
+      name: Mc_6
       rect:
         serializedVersion: 2
         x: 0
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8967fed3d417442a0800000000000000
-      internalID: -6754148964583377256
+      spriteID: 970e5c296ba066620800000000000000
+      internalID: 2766910800328515705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_7
+      name: Mc_7
       rect:
         serializedVersion: 2
         x: 96
@@ -312,8 +312,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39c606ee2afe464a0800000000000000
-      internalID: -6600887670755267437
+      spriteID: 9c271465e5a84c9d0800000000000000
+      internalID: -2754924934265212215
       vertices: []
       indices: 
       edges: []

@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 014e2a9bbcbabc742b33cae8101238e2
+guid: d6acc1bf611406f409f9e6c417b91394
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3439286256709557002
-    second: Prisoner_0
+      213: -8401287832803071379
+    second: Fake_Mc_0
   - first:
-      213: -278995725421613131
-    second: Prisoner_1
+      213: -1357378878722270140
+    second: Fake_Mc_1
   - first:
-      213: 3766244672577752553
-    second: Prisoner_2
+      213: -7416108458759963413
+    second: Fake_Mc_2
   - first:
-      213: 3860567886835340881
-    second: Prisoner_3
+      213: -3636311867427536605
+    second: Fake_Mc_3
   - first:
-      213: -1780989912624353705
-    second: Prisoner_4
+      213: -5047040448517774954
+    second: Fake_Mc_4
   - first:
-      213: 8914965715429979249
-    second: Prisoner_5
+      213: 4530888025102013695
+    second: Fake_Mc_5
   - first:
-      213: -2939391622976355874
-    second: Prisoner_6
+      213: -6874997323066491658
+    second: Fake_Mc_6
   - first:
-      213: -71847444700012536
-    second: Prisoner_7
+      213: 4294590552718312719
+    second: Fake_Mc_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Prisoner_0
+      name: Fake_Mc_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f4a1f32f533540d0800000000000000
-      internalID: -3439286256709557002
+      spriteID: d6a26fd5a31a86b80800000000000000
+      internalID: -8401287832803071379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_1
+      name: Fake_Mc_1
       rect:
         serializedVersion: 2
         x: 96
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bf646caddec02cf0800000000000000
-      internalID: -278995725421613131
+      spriteID: 44c142cf91f992de0800000000000000
+      internalID: -1357378878722270140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_2
+      name: Fake_Mc_2
       rect:
         serializedVersion: 2
         x: 192
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed44364393644430800000000000000
-      internalID: 3766244672577752553
+      spriteID: becb7d326a0b41990800000000000000
+      internalID: -7416108458759963413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_3
+      name: Fake_Mc_3
       rect:
         serializedVersion: 2
         x: 0
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156d916f90e739530800000000000000
-      internalID: 3860567886835340881
+      spriteID: 321c1716f99398dc0800000000000000
+      internalID: -3636311867427536605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_4
+      name: Fake_Mc_4
       rect:
         serializedVersion: 2
         x: 96
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75ea87d4c17a847e0800000000000000
-      internalID: -1780989912624353705
+      spriteID: 691e113d37f45f9b0800000000000000
+      internalID: -5047040448517774954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_5
+      name: Fake_Mc_5
       rect:
         serializedVersion: 2
         x: 192
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1747dfca51258bb70800000000000000
-      internalID: 8914965715429979249
+      spriteID: ff4d64537a2f0ee30800000000000000
+      internalID: 4530888025102013695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_6
+      name: Fake_Mc_6
       rect:
         serializedVersion: 2
         x: 0
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed14cb874ee2537d0800000000000000
-      internalID: -2939391622976355874
+      spriteID: 6fc3cd62c5a1790a0800000000000000
+      internalID: -6874997323066491658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prisoner_7
+      name: Fake_Mc_7
       rect:
         serializedVersion: 2
         x: 96
@@ -312,8 +312,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 800e2a4312fb00ff0800000000000000
-      internalID: -71847444700012536
+      spriteID: f05068e9a53799b30800000000000000
+      internalID: 4294590552718312719
       vertices: []
       indices: 
       edges: []

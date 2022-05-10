@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: dd33d4c1606289643b78b7bfffb38f32
+guid: f4491e19c4762954d9eae8ad7d8a6d79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8401287832803071379
-    second: Fake_Mc_0
+      213: -7809785511404226330
+    second: Guard_0
   - first:
-      213: -1357378878722270140
-    second: Fake_Mc_1
+      213: 7517161418421729254
+    second: Guard_1
   - first:
-      213: -7416108458759963413
-    second: Fake_Mc_2
+      213: 170288124656062214
+    second: Guard_2
   - first:
-      213: -3636311867427536605
-    second: Fake_Mc_3
+      213: -6889201110466385560
+    second: Guard_3
   - first:
-      213: -5047040448517774954
-    second: Fake_Mc_4
+      213: -5596783081012337526
+    second: Guard_4
   - first:
-      213: 4530888025102013695
-    second: Fake_Mc_5
+      213: -4167788796274468605
+    second: Guard_5
   - first:
-      213: -6874997323066491658
-    second: Fake_Mc_6
+      213: -6754148964583377256
+    second: Guard_6
   - first:
-      213: 4294590552718312719
-    second: Fake_Mc_7
+      213: -6600887670755267437
+    second: Guard_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fake_Mc_0
+      name: Guard_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6a26fd5a31a86b80800000000000000
-      internalID: -8401287832803071379
+      spriteID: 6e832c494711e9390800000000000000
+      internalID: -7809785511404226330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_1
+      name: Guard_1
       rect:
         serializedVersion: 2
         x: 96
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44c142cf91f992de0800000000000000
-      internalID: -1357378878722270140
+      spriteID: 6e77c408b72525860800000000000000
+      internalID: 7517161418421729254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_2
+      name: Guard_2
       rect:
         serializedVersion: 2
         x: 192
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: becb7d326a0b41990800000000000000
-      internalID: -7416108458759963413
+      spriteID: 60f879ba52cfc5200800000000000000
+      internalID: 170288124656062214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_3
+      name: Guard_3
       rect:
         serializedVersion: 2
         x: 0
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 321c1716f99398dc0800000000000000
-      internalID: -3636311867427536605
+      spriteID: 869ac603714a460a0800000000000000
+      internalID: -6889201110466385560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_4
+      name: Guard_4
       rect:
         serializedVersion: 2
         x: 96
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 691e113d37f45f9b0800000000000000
-      internalID: -5047040448517774954
+      spriteID: a84e75bd07b3452b0800000000000000
+      internalID: -5596783081012337526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_5
+      name: Guard_5
       rect:
         serializedVersion: 2
         x: 192
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff4d64537a2f0ee30800000000000000
-      internalID: 4530888025102013695
+      spriteID: 3091533fb2a0926c0800000000000000
+      internalID: -4167788796274468605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_6
+      name: Guard_6
       rect:
         serializedVersion: 2
         x: 0
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fc3cd62c5a1790a0800000000000000
-      internalID: -6874997323066491658
+      spriteID: 8967fed3d417442a0800000000000000
+      internalID: -6754148964583377256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fake_Mc_7
+      name: Guard_7
       rect:
         serializedVersion: 2
         x: 96
@@ -312,8 +312,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05068e9a53799b30800000000000000
-      internalID: 4294590552718312719
+      spriteID: 39c606ee2afe464a0800000000000000
+      internalID: -6600887670755267437
       vertices: []
       indices: 
       edges: []
