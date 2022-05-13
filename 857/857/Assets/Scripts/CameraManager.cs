@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
 
     public GameObject Camera;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger) //If player hits a camera confiner collider, then the camera switches to nearest confiner collider
+        if(other.CompareTag("Player") && !other.isTrigger)
         {
             Camera.SetActive(true);
         }
