@@ -136,10 +136,10 @@ TextureImporter:
       name: Scissors Act_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 102
-        width: 79
-        height: 85
+        x: 0
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: Scissors Act_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 3
-        width: 79
-        height: 85
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
