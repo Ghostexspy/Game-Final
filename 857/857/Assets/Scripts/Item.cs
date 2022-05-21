@@ -11,7 +11,8 @@ public class Item : MonoBehaviour
     {
         Scissors,
         Toothbrush,
-        Sharp_Toothbrush
+        Sharp_Toothbrush,
+        Keys
     }
     // Update is called once per frame
     void Update()

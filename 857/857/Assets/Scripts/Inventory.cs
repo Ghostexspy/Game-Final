@@ -9,7 +9,11 @@ public class Inventory : MonoBehaviour
     public Inventory()
     {
         itemList = new List<Item>();
-        AddItem(new Item { itemType = Item.ItemType.Toothbrush });
+        AddItem(new Item { itemType = Item.ItemType.Toothbrush, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Sharp_Toothbrush, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Scissors,  amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Keys, amount=1 });
+
         Debug.Log(itemList.Count);
     }
 
@@ -17,4 +21,10 @@ public class Inventory : MonoBehaviour
     {
         itemList.Add(item);
     }
+
+    public List<Item> GetItemList()
+    {
+        return itemList;
+    }
+
 }

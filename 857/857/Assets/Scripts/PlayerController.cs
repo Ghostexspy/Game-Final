@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     public Vector2 Checkpoint;
 
     [SerializeField]
+    private UI_Inventory uiInventory;
+
+    [SerializeField]
     GameObject Player;
 
     private void Awake()
