@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     float vertical;
     Animator animator;
+    private Inventory inventory;
 
     Vector2 lookDirection = new Vector2(1, 0);
     public Vector2 Checkpoint;
@@ -17,7 +18,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     GameObject Player;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        inventory = new Inventory();
+        
+    }
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
