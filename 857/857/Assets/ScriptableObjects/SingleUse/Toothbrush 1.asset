@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38a84630130d4114dafd1d6d44746dd2, type: 3}
-  m_Name: Inventory_Item_Toothbrush
+  m_Script: {fileID: 11500000, guid: 33c799da16fd7b0459f9c982459314af, type: 3}
+  m_Name: Toothbrush 1
   m_EditorClassIdentifier: 
-  id: InventoryItem_ToothBrush
-  displayName: Toothbrush
-  icon: {fileID: 0}
   prefab: {fileID: 2922838393619952462, guid: 4068c08f1a0037a4181d7c36e1ea3bb3, type: 3}
+  type: 0
+  description: Used to clean teeth, bathrooms, or turned into a tool

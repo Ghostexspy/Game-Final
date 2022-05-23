@@ -10,23 +10,11 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     float vertical;
     Animator animator;
-    private Inventory inventory;
+
 
     Vector2 lookDirection = new Vector2(1, 0);
     public Vector2 Checkpoint;
 
-    [SerializeField]
-    private UI_Inventory uiInventory;
-
-    [SerializeField]
-    GameObject Player;
-
-    private void Awake()
-    {
-        inventory = new Inventory();
-        uiInventory.SetInventory(inventory);
-        
-    }
 
     void Start()
     {
@@ -71,7 +59,6 @@ public class PlayerController : MonoBehaviour
     {
         Destroy(gameObject, 1f);
         yield return new WaitForSeconds(1.0f);
-        Instantiate(Player, Checkpoint, Quaternion.identity);
     }
 
 }
