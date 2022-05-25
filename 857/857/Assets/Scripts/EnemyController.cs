@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 
 public class EnemyController : MonoBehaviour
 {
-    public float speed;
+    [SerializeField]
+    float speed;
     public bool vertical;
     public float changeTime = 3.0f;
 
@@ -55,6 +58,8 @@ public class EnemyController : MonoBehaviour
 
         rigidBody2D.MovePosition(position);
     }
-   
+
+
+
 }
 

@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     float vertical;
     Animator animator;
 
+    [SerializeField]
+    GameObject player;
+
 
     Vector2 lookDirection = new Vector2(1, 0);
     public Vector2 Checkpoint;
@@ -53,16 +56,15 @@ public class PlayerController : MonoBehaviour
 
     public void Capture()
     {
+        Destroy(gameObject, 1f);
         StartCoroutine(Respawn());
     }
 
     IEnumerator Respawn()
     {
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 1.25f);
         yield return new WaitForSeconds(1.0f);
+        Instantiate(player, Checkpoint, Quaternion.identity);
     }
-    void OnCollisionEnter2D (Collision2D collision)
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+
 }
