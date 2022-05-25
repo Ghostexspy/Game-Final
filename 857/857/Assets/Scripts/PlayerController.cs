@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -60,5 +61,8 @@ public class PlayerController : MonoBehaviour
         Destroy(gameObject, 1f);
         yield return new WaitForSeconds(1.0f);
     }
-
+    void OnCollisionEnter2D (Collision2D collision)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

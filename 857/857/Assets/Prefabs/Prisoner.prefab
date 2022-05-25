@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 57136217662795349}
   - component: {fileID: -6730961035842299291}
   - component: {fileID: 1962446644249190219}
+  - component: {fileID: 699825549}
   m_Layer: 0
   m_Name: Prisoner
   m_TagString: Untagged
@@ -141,3 +142,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.0056938455}
   m_Size: {x: 0.12284395, y: 0.20906506}
   m_Direction: 0
+--- !u!114 &699825549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8214321365522665661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c50eefd080601744b1247d7084ba993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 57136217662795349}
+  moveSpeed: 1
+  decisionTime: {x: 2, y: 2}
