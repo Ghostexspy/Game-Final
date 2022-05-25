@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
     public void Capture()
     {
-        Destroy(gameObject, 1f);
+       // Destroy(gameObject, 1f);
         StartCoroutine(Respawn());
     }
 
@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         Destroy(gameObject, 1.25f);
         yield return new WaitForSeconds(1.0f);
-        Instantiate(player, Checkpoint, Quaternion.identity);
+        SceneManager.LoadScene("Main Scene");
     }
 
 }

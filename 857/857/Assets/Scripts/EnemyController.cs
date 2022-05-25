@@ -59,7 +59,5 @@ public class EnemyController : MonoBehaviour
         rigidBody2D.MovePosition(position);
     }
 
-
-
 }
 
