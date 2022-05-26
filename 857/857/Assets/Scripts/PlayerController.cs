@@ -6,11 +6,17 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 3.0f;
-
-    Rigidbody2D rigidbody2d;
+    
     float horizontal;
     float vertical;
+
+    public Transform keyOffsetPoint;
+
+    Rigidbody2D rigidbody2d;
+
     Animator animator;
+
+    public KeyManager followingKey;
 
     [SerializeField]
     GameObject player;
