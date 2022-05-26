@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// this has everything to do with animation to the queue of the sentences and when the dialogue finishes
 public class DialogueManager : MonoBehaviour
 {
     public Text nameText;

@@ -2,9 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// This makes an object move randomly in a set of directions, with some random time delay in between each decision
-/// </summary>
+/// This makes an the prisoners move randomly in a set of directions, with some random time delay in between each decision
 public class Wanderer : MonoBehaviour
 
 {
@@ -18,7 +16,7 @@ public class Wanderer : MonoBehaviour
     public Vector2 decisionTime = new Vector2(1, 4);
     internal float decisionTimeCount = 0;
 
-    // The possible directions that the object can move int, right, left, up, down, and zero for staying in place. I added zero twice to give a bigger chance if it happening than other directions
+    // The possible directions that the object can move int, right, left, up, down, and zero for staying in place.
     internal Vector3[] moveDirections = new Vector3[] { Vector3.right, Vector3.left, Vector3.up, Vector3.down, Vector3.zero, Vector3.zero };
     internal int currentMoveDirection;
 
@@ -53,17 +51,16 @@ public class Wanderer : MonoBehaviour
         if (decisionTimeCount > 0) decisionTimeCount -= Time.deltaTime;
         else
         {
-            // Choose a random time delay for taking a decision ( changing direction, or standing in place for a while )
+            // Chooses a random time delay for taking a decision ( changing direction, or standing in place for a while )
             decisionTimeCount = Random.Range(decisionTime.x, decisionTime.y);
 
-            // Choose a movement direction, or stay in place
+            // Chooses a movement direction, or stay in place
             ChooseMoveDirection();
         }
     }
 
     void ChooseMoveDirection()
     {
-        // Choose whether to move sideways or up/down
         currentMoveDirection = Mathf.FloorToInt(Random.Range(0, moveDirections.Length));
 
 
