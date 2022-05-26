@@ -68,8 +68,8 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Respawn()
     {
-        Destroy(gameObject, 1.25f);
-        yield return new WaitForSeconds(1.0f);
+        Destroy(gameObject, .2f);
+        yield return new WaitForSeconds(.1f);
         SceneManager.LoadScene("Main Scene");
     }
 
